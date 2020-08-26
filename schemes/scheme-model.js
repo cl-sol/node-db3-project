@@ -40,3 +40,12 @@ function remove(id) {
         .where({ id })
         .delete();
 };
+
+module.exports = {
+    find,
+    findById,
+    findSteps,
+    add,
+    update,
+    remove
+};
